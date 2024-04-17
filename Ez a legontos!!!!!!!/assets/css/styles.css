@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+@media screen and (min-width: 1023px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+input{
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+  height: 100vh;
+  width: 100%;
+}
+
+input
+ {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+}
+
+.main__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+}
+
+section{
+  padding: 80px 13% 70px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background-color: #1a242f;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-content h4{
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.footer-content li{
+  margin-bottom: 16px; 
+}
+
+.footer-content li{
+  display: block;
+  color: #d6d6d6;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer-content li:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: #fff;
+}
+
+.footer-content h2{
+  color: #d6d6d6;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+@media (max-width:1690px){
+  section{
+    padding: 50px 5% 40px;
+  }
+}
+
+@media (max-width:1120px){
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+  }
+}
+
+@media (max-width:700px){
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 2.5rem;
+  }
+}
+
+span{
+  color: #e0ac1c;
+  font-weight: bold;
+}
+
+.jDeveloper{
+  color: white;
+  font-family: cursive;
+  font-size: 1.75vw;
+}
+
+.infok{
+  padding: 50px;
+  word-spacing: 6px;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.infok a{
+  color: gray;
+  font-size: 145%;
+ 
+}
+
+.infok a:hover{
+  color: lightblue;
+}
