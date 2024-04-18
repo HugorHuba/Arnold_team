@@ -23,6 +23,7 @@ nav {
   background-color: #333;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   height: 10vh;
+  
 }
 
 nav ul {
@@ -50,7 +51,8 @@ nav a {
 
 nav a:hover {
   background-color: rgb(73, 73, 73);
-
+  color: white;
+  text-decoration: none;
 }
 
 nav li:first-child{
@@ -130,7 +132,10 @@ footer{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  opacity: 80%;
 }
+
+
 
 footer .social_icon,
 footer .menu{
@@ -178,7 +183,7 @@ footer .wave{
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: url(/assets/img/81fa42_b9068955e4f04266a7a7d84910a60d24~mv2.webp);
+  background-image: url(/assets/img/wave.png);
   background-size: 1000px 100px;
 }
 
