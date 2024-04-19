@@ -1,0 +1,3 @@
+-Arnold nem reszponzív
+
+-Slideshow nem eléggé reszponzív, egyes mobilok esetén eltűnik(valszeg a linkek sorrendje miatt de nemtom)
