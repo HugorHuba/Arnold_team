@@ -10,7 +10,7 @@ html{
 }
 
 body {
-  background-image: url(/assets/img/hatter.jpg);
+  background-image: url(/2024.04.23/assets/img/hatter.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -218,7 +218,7 @@ footer .wave{
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: url(/assets/img/wave.png);
+  background-image: url(/2024.04.23/assets/img/wave.png);
   background-size: 1000px 100px;
 }
 
