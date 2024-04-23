@@ -10,7 +10,7 @@ html{
 }
 
 body {
-  background-image: url(/assets/img/hatter.jpg);
+  background-image: url(/2024.04.23/assets/img/hatter.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,10 +128,7 @@ nav li:first-child{
   width: 100%;
   height: 100%;
   z-index: -1;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-left-radius: 18px;
-  border-bottom-right-radius: 18px;
+  border-radius: 50px;
 }
 
 .kepshow{
@@ -141,10 +138,7 @@ nav li:first-child{
   margin-right: 15rem;
   border: 2px solid #fff;
   z-index: -1;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-left-radius: 18px;
-  border-bottom-right-radius: 18px;
+  border-radius: 50px;
 }
 
 .bodyfooter{
@@ -218,7 +212,7 @@ footer .wave{
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: url(/assets/img/wave.png);
+  background-image: url(/2024.04.23/assets/img/wave.png);
   background-size: 1000px 100px;
 }
 
