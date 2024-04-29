@@ -1,2 +1,0 @@
--Navbar Arnold S. nem responsív
--Navbar fixed
