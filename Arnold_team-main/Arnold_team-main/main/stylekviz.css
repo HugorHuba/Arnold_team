@@ -8,9 +8,9 @@
 
 body {
     background-attachment: fixed;
-    background-image: url(/Arnold_team-main/main/assets/img/hatter.jpg);
+    background-image: url(/Arnold_team-main/Arnold_team-main/main/assets/img/hatter.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
 }
 
 nav {
