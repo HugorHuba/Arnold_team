@@ -9,7 +9,7 @@
 
 
 body {
-    background-image: url(/Arnold_team-main/Arnold_team-main/main/assets/img/hatter.jpg);
+    background-image: url(assets/img/hatter.jpg);
     position: relative;
     background-repeat: repeat;
     background-size: cover;
@@ -60,7 +60,6 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
-
 .btn:hover:not([disabled]) {
     background-color: black;
     color: white;
@@ -202,19 +201,29 @@ nav li:first-child {
     font-weight: bold;
 }
 
-footer {
+.bodyfooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 30vh;
+    bottom: 0;
+  }
+  
+  footer{
+    position: relative;
+    width: 100%;
     background-color: #000000;
+    min-height: 100px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     opacity: 75%;
-    width: 100%; 
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-}
+bottom: 0;
+  }
+  
+  
 footer .social_icon,
 footer .menu {
     position: relative;
@@ -263,7 +272,7 @@ footer .wave {
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url(/Arnold_team-main/Arnold_team-main/main/assets/img/wave.png);
+    background-image: url(assets/img/wave.png);
     background-size: 1000px 100px;
 }
 
@@ -339,4 +348,7 @@ footer .wave#wave4 {
 .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+.kviztest{
+    margin-bottom: 100px;
 }

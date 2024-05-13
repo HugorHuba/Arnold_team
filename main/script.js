@@ -43,7 +43,52 @@ const questions = [
             { text: "6", correct: false},
             { text: "5", correct: false},
         ]
-    }
+    },
+    {
+        question: "Hol Született Arnold Schwarzenegger?",
+        answers: [
+            { text: "Berlin", correct: false},
+            { text: "Köln", correct: false},
+            { text: "Thal", correct: true},
+            { text: "Bécs", correct: false},
+        ]
+    },
+    {
+        question: "Csatlakozott Arnold a Náci Párthoz?",
+        answers: [
+            { text: "nem", correct: false},
+            { text: "igen", correct: true},
+            
+        ]
+    },
+    {
+        question: "Hány évesen kezdte meg hivatalosan versenykarrierét Arnold?",
+        answers: [
+            { text: "14", correct: false},
+            { text: "18", correct: false},
+            { text: "22", correct: false},
+            { text: "17", correct: true},
+        ]
+    },
+    {
+        question: "Hol Született Arnold Schwarzenegger?",
+        answers: [
+            { text: "Berlin", correct: false},
+            { text: "Köln", correct: false},
+            { text: "Thal", correct: true},
+            { text: "Bécs", correct: false},
+        ]
+    },
+    {
+        question: "Mikor halt meg Arnold Schwarzenegger Bátyja?",
+        answers: [
+            { text: "1972", correct: false},
+            { text: "1969", correct: false},
+            { text: "1971", correct: true},
+            { text: "2002", correct: false},
+        ]
+    },
+
 ];
 
 const questionElement = document.getElementById("question");
@@ -107,7 +152,7 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `Az ereményed  ${score} az ${questions.
+    questionElement.innerHTML = `Az ereményed  ${score} a(z) ${questions.
         length}-ből!`;
         nextButton.innerHTML = "Újra";
         nextButton.style.display = "block";
