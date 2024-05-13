@@ -1,0 +1,3 @@
+-Arnold nem reszponzív
+
+-Az image sider ha lenyitjuk a hamburger menut  kitakarja a hamburger menu nagy részét.

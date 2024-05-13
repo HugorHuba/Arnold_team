@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnold Schwarzenegger - Kvíz</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+  <link rel="stylesheet" href="stylekviz.css">
+
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav id="kezdolap">
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960"
+            width="26">
+            <path
+              d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+          </svg></a></li>
+      <li><a href="index.html#kezdolap">Kezdőlap</a></li>
+      <li><a href="index.html#elete">Élete</a></li>
+      <li><a href="#filmjei">Filmjei</a></li>
+      <li><a href="">Mr.Olympia</a></li>
+      <li><a href="#rolunk">Rólunk</a></li>
+      <li><a href="kviz.html">Kvíz</a></li>
+    </ul>
+    <ul>
+      <li class="arnoldheader">Arnold Schwarzenegger</li>
+      <li class="hideOnMobile"><a href="index.html#kezdolap" class="hover-underline-animation">Kezdőlap</a></li>
+      <li class="hideOnMobile"><a href="index.html#elete" class="hover-underline-animation">Élete</a></li>
+      <li class="hideOnMobile"><a href="index.html#filmjei" class="hover-underline-animation">Filmjei</a></li>
+      <li class="hideOnMobile"><a href="" class="hover-underline-animation">Mr.Olympia</a></li>
+      <li class="hideOnMobile"><a href="#rolunk" class="hover-underline-animation">Rólunk</a></li>
+      <li class="hideOnMobile"><a href="kviz.html" class="hover-underline-animation">Kvíz</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+            viewBox="0 -960 960 960" width="26">
+            <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+          </svg></a></li>
+    </ul>
+  </nav>
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+
+  <div class="main">
+    <h1>Az Arnold Schwarzenegger kvíz</h1>
+    <aside>Mennyire figyeltetek?</aside>
+    <div class="quiz">
+      <h2 id="question">Hány éves Arnold Schwarzenegger?</h2>
+      <div id="answer-buttons">
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">4</button>
+      </div>
+      <button id="next-btn">Következő</button>
+    </div>
+  </div>
+<footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social_icon">
+        <li><a href="#footer"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="#footer"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="#footer"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="#footer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="">Kezdőlap</a></li>
+        <li><a href="">Téma</a></li>
+        <li><a href="">Kontakt</a></li>
+        <li><a href="">Jedlik</a></li>
+        <li><a href="">Arnold Schwarzenegger</a></li>
+      </ul>
+    </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
