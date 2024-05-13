@@ -1,7 +1,4 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -12,12 +9,8 @@ html{
 
 body {
   background-image: url(/Arnold_team-main/Arnold_team-main/main/assets/img/hatter.jpg);
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  background-repeat:repeat;
+  background-size:cover;
 }
 
 
@@ -122,7 +115,7 @@ nav li:first-child{
   display: flex;
   align-items: center;
   color: white;
-  font-size: 130%;
+  font-size: 100%;
   font-weight: bold;
 }
 
@@ -473,6 +466,13 @@ footer .wave#wave4{
 }
 
 #cim{
+  padding-top: 15rem;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 3px 1px 2px rgb(0, 0, 0);
+}
+#filmjei {
   padding-top: 15rem;
   color: white;
   font-weight: bold;
