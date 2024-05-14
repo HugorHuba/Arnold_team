@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnold Schwarzenegger - Kvíz</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+  <link rel="stylesheet" href="stylekviz.css">
+
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav id="kezdolap">
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960"
+            width="26">
+            <path
+              d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+          </svg></a></li>
+      <li><a href="index.html#kezdolap">Kezdőlap</a></li>
+      <li><a href="index.html#elete">Élete</a></li>
+      <li><a href="index.html#filmjei">Filmjei</a></li>
+      <li><a href="index.html#olympia">Mr.Olympia</a></li>
+      <li><a href="index.html#rolunk">Rólunk</a></li>
+      <li><a href="kviz.html">Kvíz</a></li>
+    </ul>
+    <ul>
+      <li class="arnoldheader">Arnold Schwarzenegger</li>
+      <li class="hideOnMobile"><a href="index.html#kezdolap" class="hover-underline-animation">Kezdőlap</a></li>
+      <li class="hideOnMobile"><a href="index.html#elete" class="hover-underline-animation">Élete</a></li>
+      <li class="hideOnMobile"><a href="index.html#filmjei" class="hover-underline-animation">Filmjei</a></li>
+      <li class="hideOnMobile"><a href="index.html#olympia" class="hover-underline-animation">Mr.Olympia</a></li>
+      <li class="hideOnMobile"><a href="index.html#rolunk" class="hover-underline-animation">Rólunk</a></li>
+      <li class="hideOnMobile"><a href="kviz.html" class="hover-underline-animation">Kvíz</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+            viewBox="0 -960 960 960" width="26">
+            <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+          </svg></a></li>
+    </ul>
+  </nav>
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+<div class="kviztest">
+  
+    <div class="main">
+      <h1>Az Arnold Schwarzenegger kvíz</h1>
+      <aside>Mennyire figyeltetek?</aside>
+      <div class="quiz">
+        <h2 id="question">Hány éves Arnold Schwarzenegger?</h2>
+        <div id="answer-buttons">
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">4</button>
+        </div>
+        <button id="next-btn">Következő</button>
+      </div>
+    </div>
+</div>
+<div class="main" style="margin-bottom: 200px;">
+  <form action="mailto:angyal.hunor@students.jedlik.eu">
+    <h1>Hány kérdést találtál el?</h1>
+    <div class="form-group">
+      <label for="kerdes"></label>
+      <select class="form-control" id="kerdes">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+      </select>
+      <button type="submit" class="btn btn-success">Küldés</button>
+    </div>
+  </form>
+</div>
+
+<div class="bodyfooter" id="footer">
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social_icon">
+        <li><a
+            href="https://www.facebook.com/privacy/consent/?flow=ad_free_subscription&params%5Bafs_variant%5D=first_time&source=ad_free_subscription_blocking_flow"
+            target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/Schwarzenegger" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        </li>
+        <li><a href="https://www.instagram.com/schwarzenegger/?hl=hu" target="_blank"><ion-icon
+              name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/in/arnold-schwarzenegger" target="_blank"><ion-icon
+              name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#kezdolap">Kezdőlap</a></li>
+        <li><a href="https://hu.wikipedia.org/wiki/Arnold_Schwarzenegger" target="_blank">Téma</a></li>
+        <li><a href="mailto:angyal.hunor.k@gmail.com" target="_blank">Kontakt</a></li>
+        <li><a href="https://jedlik.eu" target="_blank">Jedlik</a></li>
+        <li><a href="https://arnieslife.com/?lang=en" target="_blank">Arnold Múzeum</a></li>
+      </ul>
+    </footer>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
