@@ -8,9 +8,9 @@ html{
 }
 
 body {
-  background-image: url(/assets/img/hatter.jpg);
-  background-repeat:repeat;
-  background-size:cover;
+  background-image: url(/assets/img/hatter_marvamy.jpg);
+  background-repeat: repeat-y;
+background-size: contain;
 }
 
 
