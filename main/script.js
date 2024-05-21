@@ -54,7 +54,7 @@ const questions = [
         ]
     },
     {
-        question: "Mi volt a legelső sportja",
+        question: "Mi volt a legelső sportja?",
         answers: [
             { text: "Úszás", correct: false},
             { text: "Foci", correct: true},
