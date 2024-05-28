@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: url(/assets/img/hatter_marvamy.jpg);
+  background-image: url(/img/hatter_marvamy.jpg);
   background-repeat: repeat-y;
   background-size: contain;
 }
@@ -211,7 +211,7 @@ footer .wave {
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: url(/assets/img/wave.png);
+  background-image: url(/img/wave.png);
   background-size: 1000px 100px;
 }
 
