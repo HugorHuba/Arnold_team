@@ -1,0 +1,3 @@
+Navbar opacity változtatás
+Random szöveg reszponzivitás tesztelésére
+új mappa létrehozva
